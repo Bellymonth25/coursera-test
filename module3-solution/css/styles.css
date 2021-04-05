@@ -1,0 +1,98 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Quicksand", sans-serif;
+}
+
+body {
+  background-color: #e0fbfc;
+}
+
+#header-nav {
+  background-color: #293241;
+  margin: 0px;
+  border: #293241;
+  border-radius: 0px;
+}
+
+.navbar-brand h1 {
+  color: #ee6c4d;
+  font-weight: bolder;
+}
+
+#header-nav .container {
+  margin-left: 10px;
+}
+
+.navbar-brand h1 {
+  margin: 0;
+  font-size: 2.5em;
+}
+
+.navbar-header {
+  margin-bottom: 27px;
+}
+
+.navbar-header button.navbar-toggle {
+  border: 1.7px solid #ee6c4d;
+}
+
+.navbar-header .icon-bar {
+  border: 2px solid #ee6c4d;
+}
+
+.navbar-toggle {
+  margin-top: 20px;
+}
+
+#collapsable-nav {
+  text-align: center;
+
+  width: 100%;
+  margin: 0;
+  font-size: 1.5em;
+  margin-bottom: 15px;
+}
+
+#collapsable-nav #nav-list li a {
+  color: #e0fbfc;
+}
+
+#collapsable-nav #nav-list li hr {
+  color: #e0fbfc;
+  width: 85%;
+  margin: 0 auto;
+}
+
+#collapsable-nav #nav-list li:hover {
+  background-color: #6483ac;
+}
+
+#main-content h2 {
+  font-size: 2.8em;
+  font-weight: bold;
+  color: #293241;
+}
+
+section.container {
+  margin: 0 20px;
+  width: auto;
+  padding: 20px;
+  border: 3px #ee6c4d solid;
+  background-color: #b4d6ea;
+  border-radius: 15px;
+  color: #293241;
+  text-align: justify;
+}
+
+.row div {
+  font-size: 1.5em;
+}
+
+.row div h3 {
+  margin: 0;
+  padding-bottom: 10px;
+  font-size: 1.5em;
+  color: #293241;
+  font-weight: 600;
+}
