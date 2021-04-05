@@ -21,12 +21,14 @@ body {
 }
 
 #header-nav .container {
-  margin-left: 10px;
+  margin: 0px;
+  padding: 0;
 }
 
 .navbar-brand h1 {
   margin: 0;
   font-size: 2.5em;
+  padding-left: 20px;
 }
 
 .navbar-header {
@@ -47,7 +49,7 @@ body {
 
 #collapsable-nav {
   text-align: center;
-
+  background-color: #6483ac;
   width: 100%;
   margin: 0;
   font-size: 1.5em;
@@ -65,7 +67,11 @@ body {
 }
 
 #collapsable-nav #nav-list li:hover {
-  background-color: #6483ac;
+  background-color: #98c1d9;
+}
+
+.navbar-toggle {
+  margin-right: 30px;
 }
 
 #main-content h2 {
@@ -75,11 +81,11 @@ body {
 }
 
 section.container {
-  margin: 0 20px;
+  margin: 0 20px 20px;
   width: auto;
   padding: 20px;
-  border: 3px #ee6c4d solid;
-  background-color: #b4d6ea;
+  border: 3px #2a9d8f solid;
+  background-color: #ffbbaa;
   border-radius: 15px;
   color: #293241;
   text-align: justify;
@@ -93,6 +99,23 @@ section.container {
   margin: 0;
   padding-bottom: 10px;
   font-size: 1.5em;
-  color: #293241;
+  color: #1d1f24;
   font-weight: 600;
+}
+
+@media (min-width: 576px) {
+  #collapsable-nav {
+    background-color: #293241;
+  }
+}
+
+@media (min-width: 575px) and (max-width: 768px) {
+  .container .navbar-header button,
+  .container .navbar-header #collapsable-nav {
+    display: none;
+  }
+
+  #header-nav .container {
+    padding-bottom: 19px;
+  }
 }
